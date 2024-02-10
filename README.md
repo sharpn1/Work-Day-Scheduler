@@ -20,7 +20,7 @@ The application should:
  
 ## Usage
 
-To use the application, simply open the website: (https://sharpn1.github.io/Third-Party-APIs-Work-Day-Scheduler/) file in your web browser. You can then click on a time block to enter an event. When you are done, click the save button to store the event in local storage. Refreshing the page will not erase the stored events.
+To use the application, simply open the website: (https://sharpn1.github.io/Work-Day-Scheduler/) file in your web browser. You can then click on a time block to enter an event. When you are done, click the save button to store the event in local storage. Refreshing the page will not erase the stored events.
 
 ## Screenshot
 ![image](https://github.com/sharpn1/Third-Party-APIs-Work-Day-Scheduler/assets/152098466/7604397d-8324-4129-a607-48e007d5bc25)
@@ -38,5 +38,5 @@ To use the application, simply open the website: (https://sharpn1.github.io/Thir
 ## Author
 
 - **Shahreen Ahmed** - *SA* -
-- https://github.com/sharpn1/Third-Party-APIs-Work-Day-Scheduler
-- (https://sharpn1.github.io/Third-Party-APIs-Work-Day-Scheduler/)
+- https://sharpn1.github.io/Work-Day-Scheduler/
+- https://github.com/sharpn1/Work-Day-Scheduler
