@@ -19,18 +19,72 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Carmen's Work Day Scheduler</title>
+    <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron ">
-      <h1 class="display-3">Carmen's Work Day Scheduler</h1>
-      <p class="lead text">A simple calendar app for scheduling the work day. Dive in!</p>
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead text">A simple calendar app for scheduling the work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
          <!-- Timeblocks go here -->
-
+         <div class="d-flex bd-highlight mb-3 timeBlock">
+            <div class="p-2 bd-highlight">09:00</div>
+            <div class="p-2 col bd-highlight timeblockRow" value="9"><textarea id="event1" class="text col eventDescription"></textarea></div>
+            <div class="p-2 ml-auto bd-highlight saveBtn"><i class="fas fa-lock col mt-3"></i></div>
+          </div>
+          
+          <div class="d-flex bd-highlight mb-3 timeBlock">
+            <div class="p-2 bd-highlight">10:00</div>
+            <div class="p-2 col bd-highlight timeblockRow" value="10"><textarea id="event2" class="userInput text col eventDescription"></textarea></div>
+            <div class="p-2 ml-auto bd-highlight saveBtn"><i class="fas fa-lock col mt-3"></i></div>
+          </div>
+    
+          <div class="d-flex bd-highlight mb-3 timeBlock">
+            <div class="p-2 bd-highlight">11:00</div>
+            <div class="p-2 col bd-highlight timeblockRow" value="11"><textarea id="event3" class="text col eventDescription"></textarea></div>
+            <div class="p-2 ml-auto bd-highlight saveBtn"><i class="fas fa-lock col mt-3"></i></div>
+          </div>
+    
+          <div class="d-flex bd-highlight mb-3 timeBlock">
+            <div class="p-2 bd-highlight" value="12">12:00</div>
+            <div class="p-2 col bd-highlight timeblockRow" value="12"><textarea id="event4" class="text col eventDescription"></textarea></div>
+            <div class="p-2 ml-auto bd-highlight saveBtn"><i class="fas fa-lock col mt-3"></i></div>
+          </div>
+    
+          <div class="d-flex bd-highlight mb-3 timeBlock">
+            <div class="p-2 bd-highlight" value="13">13:00</div>
+            <div class="p-2 col bd-highlight timeblockRow" value="13"><textarea id="event5" class="text col eventDescription"></textarea></div>
+            <div class="p-2 ml-auto bd-highlight saveBtn"><i class="fas fa-lock col mt-3"></i></div>
+          </div>
+    
+          <div class="d-flex bd-highlight mb-3 timeBlock">
+            <div class="p-2 bd-highlight">14:00</div>
+            <div class="p-2 col bd-highlight timeblockRow" value="14"><textarea id="event6" class="text col eventDescription"></textarea></div>
+            <div class="p-2 ml-auto bd-highlight saveBtn"><i class="fas fa-lock col mt-3"></i></div>
+          </div>
+    
+          <div class="d-flex bd-highlight mb-3 timeBlock">
+            <div class="p-2 bd-highlight">15:00</div>
+            <div class="p-2 col bd-highlight timeblockRow" value="15"><textarea id="event7" class="text col eventDescription"></textarea></div>
+            <div class="p-2 ml-auto bd-highlight saveBtn"><i class="fas fa-lock col mt-3"></i></div>
+          </div>
+    
+          <div class="d-flex bd-highlight mb-3 timeBlock">
+            <div class="p-2 bd-highlight">16:00</div>
+            <div class="p-2 col bd-highlight timeblockRow" value="16"><textarea id="event8" class="text col eventDescription"></textarea></div>
+            <div class="p-2 ml-auto bd-highlight saveBtn"><i class="fas fa-lock col mt-3"></i></div>
+          </div>
+          <div class="d-flex bd-highlight mb-3 timeBlock">
+            <div class="p-2 bd-highlight">17:00</div>
+            <div class="p-2 col bd-highlight timeblockRow" value="17"><textarea id="event9" class="text col eventDescription"></textarea></div>
+            <div class="p-2 ml-auto bd-highlight saveBtn"><i class="fas fa-lock col mt-3"></i></div>
+          </div>
+    
+        </div>
+  
          <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
          <script src="./script.js"></script>

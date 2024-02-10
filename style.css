@@ -22,6 +22,16 @@ body {
     padding: 60px;
   }
   
+  .jumbotron {
+    background-size: cover;
+    background-image: url("assets/FreeDiving_Cyprus.jpg");
+    text-align: center;
+    background-color: transparent;
+    color: #ffffff; 
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
   .description {
     white-space: pre-wrap;
   }
