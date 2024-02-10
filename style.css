@@ -21,13 +21,13 @@ body {
     border-bottom: 10px solid black;
     padding: 60px;
   }
-  
+
   .jumbotron {
     background-size: cover;
-    background-image: url("assets/FreeDiving_Cyprus.jpg");
+    background-image: url("./images/pexels-mathias.jpg");
     text-align: center;
     background-color: transparent;
-    color: #ffffff; 
+    color: #121010; 
     border-radius: 0;
     border-bottom: 10px solid black;
   }
